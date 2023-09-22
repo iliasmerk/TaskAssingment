@@ -1,0 +1,37 @@
+
+.card-column {
+  background-color: white;
+  border-radius: 4px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: 20px repeat(6,100px);
+  max-width: 350px;
+}
+
+
+.backgroundwhite{
+  background-color: #FFF!important;
+}
+
+.paddfromcat{
+  padding: 15px 40px;
+  margin-top: 20px;
+}
+  
+.beautify{
+  border-radius: 25px;
+}
+
+.titlespan{
+  font-family: 'Muli';
+  display: block;
+}
+
+
+.titlespanname{
+  font-size:30px;
+}
+
+.titlespandesc{
+  font-size:20px;
+}

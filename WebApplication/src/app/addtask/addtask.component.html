@@ -1,0 +1,7 @@
+<span *ngIf="!isShowDivIf" (click)=toggleDisplayDivIf() class="titlespan">Add Task</span>
+<div *ngIf="isShowDivIf">
+    <div><input type="text" id="name" name="name" #name placeholder="name.." /></div>
+    <div><input type="text" id="description" name="description" #description placeholder="description.."/></div>   
+    <div><input type="text" id="timestamp" name="timestamp" #timestamp placeholder="deadline.."/></div>    
+    <button  (click)="save(name.value,description.value,timestamp.value)">Save</button>
+</div>

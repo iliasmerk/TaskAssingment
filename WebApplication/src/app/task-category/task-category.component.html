@@ -1,0 +1,5 @@
+<div class="backgroundwhite paddfromcat beautify"> 
+    <span class="titlespan titlespanname">{{this.category?.name}}</span>
+    <span class="titlespan titlespandesc">{{this.category?.description}}</span> 
+    <app-task *ngFor="let task of this.category?.tasks" [task]="task"  ></app-task>
+</div>

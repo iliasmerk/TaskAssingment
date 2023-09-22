@@ -1,0 +1,22 @@
+.titlespan{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button{
+    margin:10px 0px;
+    background-color:#a7f573;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    color:black;
+}
+
+input{
+    margin:5px 0px;
+    border-radius: 6px;
+    border: none;
+    padding: 10px;
+}
+
